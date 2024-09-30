@@ -1,0 +1,259 @@
+* {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+body {
+    background-color: black;
+    background-image: url('gameshow_small.jpg');
+    background-size: 100.5%;
+}
+
+#lights {
+    border-radius:30px;
+    background-image: url(light-panel.png);
+    background-size: cover;
+    background-position: center top;
+
+    height: 743px;
+    width: 996px;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: -35%;
+    right: 0;
+    
+    margin: auto;
+}
+
+#board {
+    border-radius:20px;
+    height: 85%;
+    width: 88%;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    background-image: none;
+}
+
+#question {
+    background-image: linear-gradient( rgb(48, 86, 176), rgb(18, 5, 55));
+    margin: 3%;
+    margin-bottom: 0%;
+    padding: 20px;
+
+    border-color: #aa8800;
+    border-width: 10px;
+    border-style: outset;
+}
+
+#qtext {
+    background-color:rgba(0, 0, 0, 0);
+    background-image: none;
+    font-size: 36px;
+    margin: 15px;
+}
+
+#bank {
+    background-color: black;
+    background-image: none;
+    height: 85%;
+    margin: 1%;
+
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+}
+
+.answer {
+    background-image:linear-gradient(to top left, #60abe9, #031e42);
+
+    border-style: outset;
+    border-color: #aa8800;
+    border-width: 5px;
+
+    font-size: 30px;
+    width: 50%;
+}
+
+.num {
+    background-image: none;
+    background-color: rgba(0,0,0,0);
+}
+
+.ans {
+    background-image: none;
+    background-color: rgba(0,0,0,0);
+    height: 100%;
+    width:100%;
+    display: none;
+}
+
+.points {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: 20%;
+}
+
+.text {
+    background-image: none;
+    background-color: rgba(2, 4, 39, 0.5);
+    width: 80%;
+}
+
+tbody, tr {
+    background-image: none;
+    background-color: rgba(0,0,0,0); 
+}
+
+.scoreboard {
+    border-radius:30px;
+    background-image: url(light-panel.png);
+    background-size: cover;
+    background-position: center top;
+
+    height: 743px;
+    width: 555px;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: +55%;
+    right: 0;
+    
+    margin: auto;
+}
+
+.blackboard {
+    border-radius:20px;
+    height: 85%;
+    width: 79%;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    background-image: none;
+}
+
+#scores {
+    background-image: none;
+    background-color: black;
+    height: 15%;
+    margin: 3%;
+    margin-bottom: 0%;
+
+    font-size: 80px;
+    color: #ffdd54;
+    border: none;
+    border-bottom: solid;
+}
+
+#families {
+    background-image: none;
+    background-color: black;
+    height: 15%;
+    margin: 3%;
+
+}
+
+.fam {
+    background-image:linear-gradient(to top left, #60abe9, #031e42);
+
+    border-style: outset;
+    border-color: #aa8800;
+    border-width: 5px;
+    margin-top: 10px;
+
+    font-size: 30px;
+
+    height: 90%;
+    width:100%;
+}
+
+.highlight {
+    border-color: #ffdd54;
+    background-image: linear-gradient(to top left, #60abe9, #234567);
+    border-width: 7px;
+    border-style: ridge;
+}
+
+#x {
+    display: none;
+
+    color: red;
+    background:rgba(0,0,0,.5);
+    font-size: 350px;
+
+    border: solid red 40px;
+
+
+    position: absolute;
+    height: 360px;
+    width: 360px;
+
+    margin: 10%;
+    margin-left: 40%;
+}
+
+b {
+    background: transparent;
+    color: red
+}
+
+.final_scoreboard {
+    border-radius:30px;
+    background-image: url(light-panel.png);
+    background-size: cover;
+    background-position: center top;
+
+    height: 743px;
+    width: 996px;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+
+.final_blackboard {
+    border-radius:20px;
+    height: 85%;
+    width: 88%;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+    flex-direction: column;
+
+    background-color: black;
+    background-image: none;
+}
